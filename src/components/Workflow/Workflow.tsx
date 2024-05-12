@@ -10,7 +10,7 @@ const Workflow = () => {
       </div>
       <p className="text-xl text-center w-full max-w-xl text-gray-200">
         Generate highly personalized icebreakers and complete sequences based on
-        your prospects' information.
+        your prospects information.
       </p>
       <div className="relative grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 justify-center items-center gap-10 lg:gap-20 max-w-5xl py-10">
         <div className="bg-gradient-to-b from-gray-600 to-[#0B092C] rounded-xl p-[1px]">
