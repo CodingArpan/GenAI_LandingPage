@@ -18,12 +18,22 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #090725;
+}
+
+.btnIndigo {
+  background-color: #706BFF;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+*{
+  user-select: none;
+  transition: all 0.3s ease-in-out;
 }
 
 @layer utilities {
